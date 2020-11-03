@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Previous Lab: Test Connecting",
+      "setup": "",
+      "run": "cd leader-election-2;mvn -q -DskipTests=false -Dtest=LeaderElectionTest#processConnected test",
+      "input": "",
+      "output": "",
+      "comparison": "",
+      "timeout": 2,
+      "points": 0
+    },
+    {
+      "name": "Previous Lab: Test Disconnecting",
+      "setup": "",
+      "run": "cd leader-election-2;mvn -q -DskipTests=false -Dtest=LeaderElectionTest#processDisConnected test",
+      "input": "",
+      "output": "",
+      "comparison": "",
+      "timeout": 2,
+      "points": 0
+    },
+    {
+      "name": "Previous Lab: Test VolunteerForLeadership",
+      "setup": "",
+      "run": "cd leader-election-2;mvn -q -DskipTests=false -Dtest=LeaderElectionTest#volunteerForLeadership test",
+      "input": "",
+      "output": "",
+      "comparison": "",
+      "timeout": 2,
+      "points": 0
+    },
+    {
+      "name": "Previous Lab: Test Electing Leader with One Node",
+      "setup": "",
+      "run": "cd leader-election-2;mvn -q -DskipTests=false -Dtest=LeaderElectionTest#electLeaderOneNode test",
+      "input": "",
+      "output": "",
+      "comparison": "",
+      "timeout": 2,
+      "points": 0
+    },
+    {
+      "name": "Previous Lab: Test Electing Leader with Two Nodes",
+      "setup": "",
+      "run": "cd leader-election-2;mvn -q -DskipTests=false -Dtest=LeaderElectionTest#electLeaderTwoNodes test",
+      "input": "",
+      "output": "",
+      "comparison": "",
+      "timeout": 2,
+      "points": 0
+    },
+    {
+      "name": "Basic Relection (2 Nodes)",
+      "setup": "",
+      "run": "cd leader-election-2;mvn -q -DskipTests=false -Dtest=LeaderElectionTest#basicReelection test",
+      "input": "",
+      "output": "",
+      "comparison": "",
+      "timeout": 2,
+      "points": 6
+    },
+    {
+      "name": "Advanced Relection (4 Nodes)",
+      "setup": "",
+      "run": "cd leader-election-2;mvn -q -DskipTests=false -Dtest=LeaderElectionTest#advancedReelection test",
+      "input": "",
+      "output": "",
+      "comparison": "",
+      "timeout": 2,
+      "points": 4
+    }
+  ]
+}
